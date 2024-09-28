@@ -55,6 +55,7 @@
     &:not(.open) {
       button.toggle-sc-player {
         transform: translateY(calc(-100% - env(safe-area-inset-bottom)));
+        transform: translateX(50%);
         transition: transform linear 0.1s;
         // Footer Nav
         body.footer-nav-visible:not(.footer-nav-ipad) & {
