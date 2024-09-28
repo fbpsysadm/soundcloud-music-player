@@ -52,6 +52,7 @@
     }
 
     &:not(.open) {
+      transform:translateX(150);
       button.toggle-sc-player {
         transform: translateY(calc(-100% - env(safe-area-inset-bottom)));
         transition: transform linear 0.1s;
