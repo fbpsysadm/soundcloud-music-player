@@ -9,6 +9,7 @@
   
   .music-player {
     position: fixed;
+    left:100;
     bottom: 0;
     max-width: calc(var(--d-max-width) - 2em);
     max-height: 80svh;
@@ -52,7 +53,6 @@
     }
 
     &:not(.open) {
-      transform:translateX(150);
       button.toggle-sc-player {
         transform: translateY(calc(-100% - env(safe-area-inset-bottom)));
         transition: transform linear 0.1s;
